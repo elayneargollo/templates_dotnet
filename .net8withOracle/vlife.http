@@ -1,0 +1,6 @@
+@vlife_HostAddress = http://localhost:5059
+
+GET {{vlife_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
