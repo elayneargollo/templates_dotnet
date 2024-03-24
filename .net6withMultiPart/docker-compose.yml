@@ -1,0 +1,23 @@
+version: "1.0"
+
+services:
+
+  uploadfile:
+    image: a480091885d8
+    build: .
+    privileged: true
+    container_name: arquivoApi 
+    restart: always
+    ports:
+      - 8080:5000
+    volumes:
+      - ./uploads:/app/uploads
+
+  #aplication:
+  #  ports:
+  #    - 8080:5000
+  #  build:
+  #    context: .
+  #    dockerfile: Dockerfile
+
+  

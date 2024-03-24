@@ -1,0 +1,59 @@
+pipeline {
+    agent any
+    
+    environment { 
+        DEPLOY_TO = 'development'
+        DOTNET_SYSTEM_GLOBALIZATION_INVARIANT = 1
+        AZ_VER = '2.51.0'
+    }
+    
+    tools {
+        dotnetsdk '.NET 6'
+    }
+    
+    stages {
+    	stage('Cleanup and Checkout'){
+    	    steps{
+    	       cleanWs()
+    	       git branch: 'main', credentialsId: 'GitHub', url: 'https://github.com/elayneargollo/uploadfile.git'
+    	    }
+    	}
+    	
+    	stage('Restore and build') {
+            steps {
+                dotnetRestore project: 'arquivoApi.sln', sdk: '.NET 6'
+                dotnetBuild project: 'arquivoApi.sln', sdk: '.NET 6'
+            }
+         }
+	    
+        stage('Test') {
+            steps {
+                echo 'Test....'
+                dotnetTest project: 'arquivoApi.sln', sdk: '.NET 6'
+            }
+        }
+        
+        stage('Dotnet Publish') {
+            steps {
+                echo 'Publish....'
+                dotnetPublish project: 'arquivoApi.sln', sdk: '.NET 6', selfContained: false
+            }
+        }
+
+        stage('Deploy Azure') {
+            steps {
+                withCredentials([azureServicePrincipal('fileblobsjenkinskey')]) {
+                    echo 'Deploy ASP.Net Core app to Azure Web App - Fileblobsjenkins'
+                    
+                    sh 'curl -sL https://aka.ms/InstallAzureCLIDeb | bash'
+                    sh 'az login --service-principal -u $AZURE_CLIENT_ID -p $AZURE_CLIENT_SECRET -t $AZURE_TENANT_ID'
+
+                    sh 'az webapp deployment list-publishing-credentials --name <name> --resource-group <group> --subscription <subscriptionId>'
+                    sh 'az webapp up --name <name> --plan <plan> --sku FREE'
+                    
+                }
+            }
+        }
+
+    }
+}
