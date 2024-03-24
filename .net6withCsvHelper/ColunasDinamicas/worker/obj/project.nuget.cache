@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9/frotfc8uSQZ9T1yQKZnjsUSGxlh1aUNqgBHz9N4Um+Mo8nW1txwEqhdiZsMIHzC4qZ9QODMNrw9+P9eBHmXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Elayne\\Documents\\Github\\exportCsv\\ColunasDinamicas\\worker\\worker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elayne\\.nuget\\packages\\csvhelper\\15.0.0\\csvhelper.15.0.0.nupkg.sha512",
+    "C:\\Users\\Elayne\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

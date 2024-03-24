@@ -1,0 +1,35 @@
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\bin\Debug\net6.0\worker.exe
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\bin\Debug\net6.0\worker.deps.json
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\bin\Debug\net6.0\worker.runtimeconfig.json
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\bin\Debug\net6.0\worker.dll
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\bin\Debug\net6.0\worker.pdb
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\bin\Debug\net6.0\Bogus.dll
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\worker.csproj.AssemblyReference.cache
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\worker.AssemblyInfoInputs.cache
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\worker.AssemblyInfo.cs
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\worker.csproj.CoreCompileInputs.cache
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\worker.csproj.CopyComplete
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\worker.dll
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\refint\worker.dll
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\worker.pdb
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\worker.genruntimeconfig.cache
+C:\Users\Elayne\Desktop\ExportCsv\Colunas dinamicas\worker\obj\Debug\net6.0\ref\worker.dll
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\worker.csproj.AssemblyReference.cache
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\worker.AssemblyInfoInputs.cache
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\worker.AssemblyInfo.cs
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\worker.csproj.CoreCompileInputs.cache
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\worker.dll
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\refint\worker.dll
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\worker.pdb
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\bin\Debug\net6.0\worker.exe
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\bin\Debug\net6.0\worker.deps.json
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\bin\Debug\net6.0\worker.runtimeconfig.json
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\bin\Debug\net6.0\worker.dll
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\bin\Debug\net6.0\worker.pdb
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\worker.csproj.CopyComplete
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\worker.genruntimeconfig.cache
+C:\Users\Elayne\Documents\Github\exportCsv\ColunasDinamicas\worker\obj\Debug\net6.0\ref\worker.dll
